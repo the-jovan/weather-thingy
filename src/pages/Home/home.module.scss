@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 0 20rem;
+}
+
+.home {
+  margin-top: 4rem;
+  width: 100rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+
+  h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 2rem 0 7rem;
+    font-size: 2.4rem;
+    font-weight: 300;
+  }
+}
+
+.cards {
+  margin-top: 15rem;
+  display: flex;
+}
