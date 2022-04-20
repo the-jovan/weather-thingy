@@ -1,12 +1,22 @@
 .wrapper {
-  padding: 0 20rem;
+  // padding: 0 20rem;
 }
 
 .home {
-  margin-top: 4rem;
+  margin: 4rem auto 0;
   width: 100rem;
   color: #fff;
   font-family: 'Poppins', sans-serif;
+
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    padding: 0 8rem;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: 100%;
+    padding: 0 3rem;
+  }
 
   h1 {
     margin: 0;
@@ -22,6 +32,16 @@
 }
 
 .cards {
-  margin-top: 15rem;
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: calc(100% - 40rem);
+  min-width: 100rem;
+  margin-top: 15rem;
+  padding: 0 20rem 20rem;
+
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    padding: 0 8rem;
+  }
 }

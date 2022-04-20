@@ -5,9 +5,11 @@ const Button: FunctionComponent<{
   type: string;
   text: any;
   customClass?: string;
-}> = ({ type, text, customClass }) => {
+  clickFn: any;
+}> = ({ type, text, customClass, clickFn }) => {
   return (
     <button
+      onClick={clickFn}
       className={`${classes.button} ${classes[type]}${
         customClass ? ` ${customClass}` : ""
       }`}

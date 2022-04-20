@@ -2,13 +2,24 @@ import { FunctionComponent } from "react";
 import Button from "../../ui/Button/Button";
 import classes from "./card.module.scss";
 
-const Card: FunctionComponent = () => {
+const Card: FunctionComponent<{
+  city: string;
+  state: string;
+  temperature: string;
+}> = ({ city, state, temperature }) => {
   return (
     <div className={classes.wrapper}>
-      <h2>City</h2>
-      <p>State</p>
-      <p>33c</p>
-      <Button type="regular" text="View City" />
+      <div className={classes.location}>
+        <h2>{city}</h2>
+        <span>{state}</span>
+      </div>
+      <p>{temperature}</p>
+      <Button
+        customClass={classes.button}
+        type="regular"
+        text="View City"
+        clickFn={() => console.log("redirect")}
+      />
     </div>
   );
 };
