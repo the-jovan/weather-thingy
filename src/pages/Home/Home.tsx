@@ -2,13 +2,8 @@ import { FunctionComponent, useState, useLayoutEffect } from "react";
 import classes from "./home.module.scss";
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  setCities,
-  saveCity,
-  removeCity,
-  getCity,
-} from "../../reducers/citiesSlice";
 import { savedCities, parsedSavedCities } from "../../helpers/storage";
+import { getCity, setCitiesSavedInLS } from "../../reducers/citiesSlice";
 
 import Input from "../../components/features/Input/Input";
 import Card from "../../components/features/Card/Card";
@@ -22,38 +17,29 @@ const Home: FunctionComponent = () => {
 
   useLayoutEffect(() => {
     if (savedCities) {
-      if (typeof parsedSavedCities === "string") {
-        dispatch(getCity(parsedSavedCities));
-      } else {
-        parsedSavedCities.forEach((city: string) => {
-          dispatch(getCity(city));
-        });
-      }
+      dispatch(setCitiesSavedInLS(parsedSavedCities));
+      parsedSavedCities.forEach((city: string) => {
+        dispatch(getCity(city));
+      });
     }
   }, []);
-
-  const addNewCity = () => {
-    if (!cities.savedCities.includes(searchedCity) && !cities.limitReached) {
-      dispatch(getCity(searchedCity));
-      return dispatch(saveCity(searchedCity));
-    }
-  };
 
   return (
     <div className={classes.wrapper}>
       <div className={classes.home}>
+        <button onClick={() => console.log(cities)}>OKOK</button>
         <h1>Add cities</h1>
         <p>Add 5 cities whose temperature you want to track.</p>
         <Input
           searchTerm={searchedCity}
           setSearchTerm={setSearchedCity}
           placeholder="Search or add a city..."
-          addFn={addNewCity}
+          addFn={() => dispatch(getCity(searchedCity))}
           searchFn={() => console.log(searchedCity)}
         />
       </div>
       <div className={classes.cards}>
-        {cities.selectedCities.map((data: any, key: number) => (
+        {cities.savedCitiesData.map((data: any, key: number) => (
           <Card
             key={key}
             city={data.location.name}
