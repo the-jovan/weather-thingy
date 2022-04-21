@@ -6,7 +6,8 @@ const Card: FunctionComponent<{
   city: string;
   state: string;
   temperature: string;
-}> = ({ city, state, temperature }) => {
+  clickFn: () => void;
+}> = ({ city, state, temperature, clickFn }) => {
   return (
     <div className={classes.wrapper}>
       <div className={classes.location}>
@@ -18,7 +19,7 @@ const Card: FunctionComponent<{
         customClass={classes.button}
         type="regular"
         text="View City"
-        clickFn={() => console.log("redirect")}
+        clickFn={clickFn}
       />
     </div>
   );

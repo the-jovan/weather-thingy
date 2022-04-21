@@ -9,8 +9,9 @@ const Input: FunctionComponent<{
   searchTerm: string;
   setSearchTerm: (val: string) => void;
   placeholder: string;
-  submitFn: () => any;
-}> = ({ searchTerm, setSearchTerm, placeholder, submitFn }) => {
+  addFn: () => any;
+  searchFn: () => any;
+}> = ({ searchTerm, setSearchTerm, placeholder, addFn, searchFn }) => {
   return (
     <div className={classes.wrapper}>
       {/* one button here is unnecessary, since both look like they "add" new thing */}
@@ -18,7 +19,7 @@ const Input: FunctionComponent<{
         customClass={classes.plus}
         type="circle"
         text={<FontAwesomeIcon icon={faPlus} />}
-        clickFn={submitFn}
+        clickFn={addFn}
       />
       <input
         className={classes.input}
@@ -32,8 +33,8 @@ const Input: FunctionComponent<{
       <Button
         customClass={classes.add}
         type="regular"
-        text="Add"
-        clickFn={submitFn}
+        text="Search"
+        clickFn={searchFn}
       />
     </div>
   );
