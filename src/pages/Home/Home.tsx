@@ -66,10 +66,9 @@ const Home: FunctionComponent = () => {
       <div className={classes.cards}>
         {cities.savedCitiesData.map((data: any, key: number) => (
           <Card
+            type="small"
+            data={data}
             key={key}
-            city={data.location.name}
-            state={data.location.region}
-            temperature={`${data.current.temperature}C`}
             clickFn={() => navigate(`/${data.location.name}`)}
           />
         ))}
@@ -87,8 +86,6 @@ const Home: FunctionComponent = () => {
           <li>Paris</li>
           <li>Madrid</li>
         </ul>
-        <hr />
-        <h4>json-server supported cities for searching</h4>
       </div>
     </>
   );

@@ -1,26 +1,39 @@
-import { useState, useEffect } from "react";
+import { useState, useLayoutEffect } from "react";
+import classes from "./city.module.scss";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import Card from "../../components/features/Card/Card";
+import HourlyDisplay from "../../components/features/HourlyDisplay/HourlyDisplay";
+
+import { ICity } from "../../models/ICity";
 
 const City = () => {
-  const [cityData, setCityData] = useState<any>({});
+  const [cityData, setCityData] = useState<ICity>();
   const [loading, setLoading] = useState<boolean>(false);
   const { name } = useParams();
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setLoading(true);
     axios.get(`http://localhost:3001/${name}`).then((resp) => {
       setCityData(resp.data);
       setLoading(false);
     });
-  }, [name]);
+  }, []);
 
   if (loading) return <div>Loading...</div>;
 
   return (
-    <div>
-      <button onClick={() => console.log(cityData.location.name)}>LOG</button>
-      {cityData && <div>Extended Card</div>}
+    <div className={classes.city}>
+      {cityData ? (
+        <>
+          <Card data={cityData} />
+          <div className={classes.hourly}>
+            <HourlyDisplay data={cityData.historical} />
+          </div>
+        </>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

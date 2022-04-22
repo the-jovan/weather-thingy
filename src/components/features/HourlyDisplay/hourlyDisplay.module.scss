@@ -1,0 +1,31 @@
+.hd {
+  padding: 4rem;
+  font-family: "Poppins", sans-serif;
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  &__cards {
+    display: flex;
+    overflow: auto;
+  }
+}
+
+.card {
+  flex: 1;
+  text-align: center;
+  &__time {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+
+  svg {
+    height: 2.8rem;
+  }
+
+  &__t {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
