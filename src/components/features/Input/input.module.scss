@@ -5,6 +5,14 @@
   overflow: hidden;
   background: #fff;
   border-radius: 10px;
+
+  @media screen and (max-width: 800px) {
+    height: 6rem;
+  }
+
+  @media screen and (max-width: 400px) {
+    height: 4rem;
+  }
 }
 
 .input {
@@ -13,6 +21,15 @@
   padding-left: 8rem;
   border: none;
   font-size: 2rem;
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.6rem;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 1.2rem;
+    padding-left: 4rem;
+  }
 
   &:focus-visible {
     outline: none;
@@ -23,12 +40,33 @@
   position: absolute;
   left: 2rem;
   top: 2rem;
+
+  @media screen and (max-width: 800px) {
+    top: 1rem;
+  }
+
+  @media screen and (max-width: 400px) {
+    height: 2.4rem !important;
+    width: 2.4rem !important;
+    top: 0.8rem;
+    left: 0.8rem;
+  }
 }
 
-.add {
+.search {
   position: absolute;
-  right: .5rem;
-  top: .5rem;
-  bottom: .5rem;
+  right: 0.5rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
   width: 13rem;
+
+  @media screen and (max-width: 800px) {
+    width: 10rem;
+    font-size: 1.6rem;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: 6rem;
+    font-size: 1.2rem !important;
+  }
 }

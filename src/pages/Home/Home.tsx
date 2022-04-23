@@ -1,7 +1,8 @@
 import { FunctionComponent, useState, useLayoutEffect } from "react";
 import classes from "./home.module.scss";
 import { useNavigate } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+import { useAppDispatch } from "../../store/store";
 import { savedCities, parsedSavedCities } from "../../helpers/storage";
 import {
   getCity,
@@ -12,11 +13,12 @@ import {
 import Input from "../../components/features/Input/Input";
 import Card from "../../components/features/Card/Card";
 import Button from "../../components/ui/Button/Button";
+import JSSupport from "../../components/features/JSSupport/JSSupport";
 
 const Home: FunctionComponent = () => {
   const [searchedCity, setSearchedCity] = useState<string>("");
   const navigate = useNavigate();
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const { cities, loading } = useSelector((state: any) => state);
 
   useLayoutEffect(() => {
@@ -29,8 +31,10 @@ const Home: FunctionComponent = () => {
   }, []);
 
   const saveCityToLS = (): void => {
-    dispatch(getCity(searchedCity));
-    setSearchedCity("");
+    if (searchedCity.length) {
+      dispatch(getCity(searchedCity));
+      setSearchedCity("");
+    }
   };
 
   if (loading)
@@ -50,7 +54,7 @@ const Home: FunctionComponent = () => {
           setSearchTerm={setSearchedCity}
           placeholder="Search or add a city..."
           addFn={saveCityToLS}
-          searchFn={() => navigate(`/${searchedCity}`)}
+          searchFn={() => searchedCity.length && navigate(`/${searchedCity}`)}
         />
         {cities.savedCitiesData.length ? (
           <Button
@@ -64,29 +68,19 @@ const Home: FunctionComponent = () => {
         )}
       </div>
       <div className={classes.cards}>
-        {cities.savedCitiesData.map((data: any, key: number) => (
-          <Card
-            type="small"
-            data={data}
-            key={key}
-            clickFn={() => navigate(`/${data.location.name}`)}
-          />
-        ))}
+        <div className={classes.cards__list}>
+          {cities.savedCitiesData.map((data: any, key: number) => (
+            <Card
+              type="small"
+              data={data}
+              key={key}
+              clickFn={() => navigate(`/${data.location.name}`)}
+            />
+          ))}
+        </div>
       </div>
 
-      <div className={classes.supportedCities}>
-        <h4>json-server supported cities for adding</h4>
-        <ul>
-          <li>New York</li>
-          <li>Boston</li>
-          <li>Los Angeles</li>
-          <li>Washington</li>
-          <li>Chicago</li>
-          <li>Rome</li>
-          <li>Paris</li>
-          <li>Madrid</li>
-        </ul>
-      </div>
+      <JSSupport />
     </>
   );
 };

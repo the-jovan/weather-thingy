@@ -1,8 +1,9 @@
-import { combineReducers } from 'redux'
-import citiesReducer from './../reducers/citiesSlice'
+import { combineReducers } from "redux";
+import citiesReducer from "./../reducers/citiesSlice";
 
 const rootReducer = combineReducers({
-  cities: citiesReducer
-})
+  cities: citiesReducer,
+});
 
-export default rootReducer
+export type RootState = ReturnType<typeof rootReducer>;
+export default rootReducer;

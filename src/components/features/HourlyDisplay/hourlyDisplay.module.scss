@@ -15,9 +15,15 @@
 .card {
   flex: 1;
   text-align: center;
+  min-width: 6rem;
+
   &__time {
     font-size: 1.8rem;
     font-weight: 300;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.6rem;
+    }
   }
 
   svg {
@@ -27,5 +33,9 @@
   &__t {
     font-size: 2rem;
     font-weight: 600;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.6rem;
+    }
   }
 }

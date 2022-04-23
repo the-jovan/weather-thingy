@@ -1,62 +1,38 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
-
-export interface CitiesState {
-  citiesSavedInLS: string[];
-  limitOfLSReached: boolean;
-  savedCitiesData: any[];
-  loading: boolean;
-  searchedCityData: any;
-}
+import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { getCityData } from "../services/api_cities";
+import { ICitiesState } from "../models/ICitiesState";
+import { ICity } from "../models/ICity";
 
 export const getCity: any = createAsyncThunk(
   "city/getCity",
   async (name: string, { rejectWithValue }) => {
     try {
-      const response = await axios.get(
-        // `http://api.weatherstack.com/current?access_key=37e616bd505f25166a034f67a89ff8d7&query=${name}`
-        `http://localhost:3001/${name}`
-      );
-
-      return response.data;
+      const fetchedCityData = getCityData(name);
+      return fetchedCityData;
     } catch {
       return rejectWithValue("That city is not in our database");
     }
   }
 );
-//! DUPLICATE!!!
-// export const searchForCity: any = createAsyncThunk(
-//   "city/searchCity",
-//   async (name: string, { rejectWithValue }) => {
-//     try {
-//       const response = await axios.get(
-//         // `http://api.weatherstack.com/current?access_key=37e616bd505f25166a034f67a89ff8d7&query=${name}`
-//         `http://localhost:3001/${name}`
-//       );
 
-//       return response.data;
-//     } catch {
-//       return rejectWithValue("That city is not in our database");
-//     }
-//   }
-// );
-
-const initialState: CitiesState = {
+const initialState: ICitiesState = {
   citiesSavedInLS: [],
   limitOfLSReached: false,
   savedCitiesData: [],
   loading: false,
-  searchedCityData: "",
 };
 
 export const citiesSlice = createSlice({
   name: "cities",
   initialState,
   reducers: {
-    setCitiesSavedInLS: (state, action) => {
+    setCitiesSavedInLS: (
+      state: ICitiesState,
+      action: PayloadAction<string[]>
+    ) => {
       state.citiesSavedInLS = action.payload;
     },
-    clearEverything: (state) => {
+    clearEverything: (state: ICitiesState) => {
       state.citiesSavedInLS = [];
       state.limitOfLSReached = false;
       state.savedCitiesData = [];
@@ -65,56 +41,54 @@ export const citiesSlice = createSlice({
     },
   },
   extraReducers: (builder) => {
-    builder.addCase(getCity.rejected, (state, action) => {
-      state.loading = false;
-      console.log(action.payload);
-    });
-    builder.addCase(getCity.pending, (state) => {
+    builder.addCase(
+      getCity.rejected,
+      (state: ICitiesState, action: PayloadAction<string>) => {
+        state.loading = false;
+        console.log(action.payload);
+      }
+    );
+    builder.addCase(getCity.pending, (state: ICitiesState) => {
       state.loading = true;
     });
-    builder.addCase(getCity.fulfilled, (state, action) => {
-      let searchedCityName = action.payload.location.name;
+    builder.addCase(
+      getCity.fulfilled,
+      (state: ICitiesState, action: PayloadAction<ICity>) => {
+        let searchedCityName = action.payload.location.name;
 
-      const updateState = () => {
-        state.loading = false;
-        state.savedCitiesData = [...state.savedCitiesData, action.payload];
-      };
+        const updateState = () => {
+          state.loading = false;
+          state.savedCitiesData = [...state.savedCitiesData, action.payload];
+        };
 
-      if (
-        state.citiesSavedInLS.length < 5 &&
-        !state.citiesSavedInLS.includes(searchedCityName)
-      ) {
-        if (localStorage.getItem("locallySavedCities")) {
-          state.citiesSavedInLS.push(searchedCityName);
-          localStorage.setItem(
-            "locallySavedCities",
-            JSON.stringify([
-              ...JSON.parse(localStorage.getItem("locallySavedCities")!),
-              searchedCityName,
-            ])
-          );
-        } else {
-          state.citiesSavedInLS.push(searchedCityName);
-          localStorage.setItem(
-            "locallySavedCities",
-            JSON.stringify([searchedCityName])
-          );
+        if (
+          state.citiesSavedInLS.length < 5 &&
+          !state.citiesSavedInLS.includes(searchedCityName)
+        ) {
+          if (localStorage.getItem("locallySavedCities")) {
+            state.citiesSavedInLS.push(searchedCityName);
+            localStorage.setItem(
+              "locallySavedCities",
+              JSON.stringify([
+                ...JSON.parse(localStorage.getItem("locallySavedCities")!),
+                searchedCityName,
+              ])
+            );
+          } else {
+            state.citiesSavedInLS.push(searchedCityName);
+            localStorage.setItem(
+              "locallySavedCities",
+              JSON.stringify([searchedCityName])
+            );
+          }
+          updateState();
+        } else if (
+          state.savedCitiesData.length < state.citiesSavedInLS.length
+        ) {
+          updateState();
         }
-        updateState();
-      } else if (state.savedCitiesData.length < state.citiesSavedInLS.length) {
-        updateState();
       }
-    });
-    // builder.addCase(searchForCity.rejected, (state, action) => {
-    //   state.loading = false;
-    //   console.log(action.payload);
-    // });
-    // builder.addCase(searchForCity.pending, (state) => {
-    //   state.loading = true;
-    // });
-    // builder.addCase(searchForCity.fulfilled, (state, action) => {
-    //   state.searchedCityData = action.payload;
-    // });
+    );
   },
 });
 

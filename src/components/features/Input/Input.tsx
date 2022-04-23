@@ -14,7 +14,6 @@ const Input: FunctionComponent<{
 }> = ({ searchTerm, setSearchTerm, placeholder, addFn, searchFn }) => {
   return (
     <div className={classes.wrapper}>
-      {/* one button here is unnecessary, since both look like they "add" new thing */}
       <Button
         customClass={classes.plus}
         type="circle"
@@ -31,7 +30,7 @@ const Input: FunctionComponent<{
         placeholder={placeholder}
       />
       <Button
-        customClass={classes.add}
+        customClass={classes.search}
         type="regular"
         text="Search"
         clickFn={searchFn}

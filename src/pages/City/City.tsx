@@ -1,38 +1,51 @@
-import { useState, useLayoutEffect } from "react";
+import { useState, useEffect } from "react";
 import classes from "./city.module.scss";
-import { useParams } from "react-router-dom";
-import axios from "axios";
+import { Link, useParams } from "react-router-dom";
+import { ICity } from "../../models/ICity";
+import { getCityData } from "../../services/api_cities";
+
 import Card from "../../components/features/Card/Card";
 import HourlyDisplay from "../../components/features/HourlyDisplay/HourlyDisplay";
-
-import { ICity } from "../../models/ICity";
 
 const City = () => {
   const [cityData, setCityData] = useState<ICity>();
   const [loading, setLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string>();
   const { name } = useParams();
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     setLoading(true);
-    axios.get(`http://localhost:3001/${name}`).then((resp) => {
-      setCityData(resp.data);
-      setLoading(false);
-    });
-  }, []);
+    if (name) {
+      getCityData(name)
+        .then((resp) => {
+          setCityData(resp);
+          setLoading(false);
+        })
+        .catch((err) => {
+          setError("That city is not in our database, sorry");
+          setLoading(false);
+        });
+    }
+  }, [name]);
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div className={classes.city}>Loading...</div>;
+
+  if (error)
+    return (
+      <div className={`${classes.city} ${classes.placeholder}`}>
+        {error}, <Link to="/">return</Link>
+      </div>
+    );
 
   return (
     <div className={classes.city}>
-      {cityData ? (
+      {cityData && (
         <>
           <Card data={cityData} />
           <div className={classes.hourly}>
             <HourlyDisplay data={cityData.historical} />
           </div>
         </>
-      ) : (
-        ""
       )}
     </div>
   );

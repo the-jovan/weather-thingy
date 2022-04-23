@@ -1,10 +1,22 @@
 .city {
-  padding: 0 20rem 14rem;
+  padding: 0 10% 14rem;
+  @media screen and (max-width: 660px) {
+    padding: 0 5% 14rem;
+  }
+}
+
+.placeholder {
+  font-size: 2rem;
+  color: #fff;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .hourly {
   margin-top: 3rem;
-  width: 100%;
+  max-width: 100vw;
   background: #fff;
   border-radius: 10px;
 }

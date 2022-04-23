@@ -3,9 +3,13 @@
   justify-content: center;
   align-items: center;
   border: none;
-  background: #04353C;
+  background: #04353c;
   color: #fff;
   cursor: pointer;
+
+  &:focus {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 .circle {

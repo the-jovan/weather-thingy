@@ -51,37 +51,39 @@ const Card: FunctionComponent<{
           {lat}N, {lon}E
         </p>
       </div>
-      <div className={classes.extended__temperature}>
-        <ConfiggedIcon icon={weather_icons[0]} />
-        <p>
-          {temperature}
-          <span>&#xb0;</span>C
-        </p>
-      </div>
-      <div className={classes.extended__info}>
-        <ul>
-          <li>
-            <strong>Feels like</strong>
-            {feelslike}
+      <div className={classes.extended__stats}>
+        <div className={classes.extended__temperature}>
+          <ConfiggedIcon icon={weather_icons[0]} />
+          <p>
+            {temperature}
             <span>&#xb0;</span>C
-          </li>
-          <li>
-            <strong>Humidity</strong>
-            {humidity}%
-          </li>
-          <li>
-            <strong>Pressure</strong>
-            {pressure} mbar
-          </li>
-          <li>
-            <strong>Wind</strong>
-            {wind_speed} 3.1m/s SE
-          </li>
-          <li>
-            <strong>UV Index</strong>
-            {uv_index}
-          </li>
-        </ul>
+          </p>
+        </div>
+        <div className={classes.extended__info}>
+          <ul>
+            <li>
+              <strong>Feels like</strong>
+              {feelslike}
+              <span>&#xb0;</span>C
+            </li>
+            <li>
+              <strong>Humidity</strong>
+              {humidity}%
+            </li>
+            <li>
+              <strong>Pressure</strong>
+              {pressure} mbar
+            </li>
+            <li>
+              <strong>Wind</strong>
+              {wind_speed} 3.1m/s SE
+            </li>
+            <li>
+              <strong>UV Index</strong>
+              {uv_index}
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
