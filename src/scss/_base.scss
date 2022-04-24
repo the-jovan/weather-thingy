@@ -1,0 +1,29 @@
+$color--white: #fff;
+$color--dark: #04353c;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin for-400 {
+  @media screen and (max-width: 400px) {
+    @content;
+  }
+}
+@mixin for-600 {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+@mixin for-800 {
+  @media screen and (max-width: 800px) {
+    @content;
+  }
+}
+@mixin for-1200 {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}

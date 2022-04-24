@@ -1,8 +1,8 @@
-import { FunctionComponent, useState, useLayoutEffect } from "react";
+import { FunctionComponent, useState, useLayoutEffect, useEffect } from "react";
 import classes from "./home.module.scss";
 import { useNavigate } from "react-router-dom";
-import { useSelector } from "react-redux";
-import { useAppDispatch } from "../../store/store";
+import { toast } from "react-toastify";
+import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { savedCities, parsedSavedCities } from "../../helpers/storage";
 import {
   getCity,
@@ -17,9 +17,10 @@ import JSSupport from "../../components/features/JSSupport/JSSupport";
 
 const Home: FunctionComponent = () => {
   const [searchedCity, setSearchedCity] = useState<string>("");
+  const [disableAddButton, setDisableAddButton] = useState<boolean>(false);
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
-  const { cities, loading } = useSelector((state: any) => state);
+  const { cities, loading } = useAppSelector((state: any) => state);
 
   useLayoutEffect(() => {
     if (savedCities) {
@@ -30,10 +31,34 @@ const Home: FunctionComponent = () => {
     }
   }, []);
 
+  useEffect(() => {
+    cities.citiesSavedInLS.length === 5
+      ? setDisableAddButton(true)
+      : setDisableAddButton(false);
+  }, [cities.citiesSavedInLS]);
+
   const saveCityToLS = (): void => {
-    if (searchedCity.length) {
+    if (searchedCity.length && !disableAddButton) {
       dispatch(getCity(searchedCity));
       setSearchedCity("");
+    } else if (disableAddButton) {
+      toast(
+        "You can follow up to 5 cities. Otherwise, please use the search option."
+      );
+    } else if (!searchedCity.length) {
+      toast(
+        "Literally every city in the world has at least one letter in its name. :)"
+      );
+    }
+  };
+
+  const searchForCity = (): void => {
+    if (searchedCity.length) {
+      navigate(`/${searchedCity}`);
+    } else {
+      toast(
+        "Literally every city in the world has at least one letter in its name. :)"
+      );
     }
   };
 
@@ -54,7 +79,7 @@ const Home: FunctionComponent = () => {
           setSearchTerm={setSearchedCity}
           placeholder="Search or add a city..."
           addFn={saveCityToLS}
-          searchFn={() => searchedCity.length && navigate(`/${searchedCity}`)}
+          searchFn={searchForCity}
         />
         {cities.savedCitiesData.length ? (
           <Button

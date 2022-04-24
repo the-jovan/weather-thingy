@@ -1,11 +1,11 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, memo } from "react";
 import classes from "./button.module.scss";
 
 const Button: FunctionComponent<{
   type: string;
   text: any;
   customClass?: string;
-  clickFn: any;
+  clickFn?: () => void;
 }> = ({ type, text, customClass, clickFn }) => {
   return (
     <button
@@ -19,4 +19,4 @@ const Button: FunctionComponent<{
   );
 };
 
-export default Button;
+export default memo(Button);

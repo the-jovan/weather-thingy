@@ -1,9 +1,10 @@
+@import "../../../scss/base";
+
 .wrapper {
   display: flex;
   padding: 4rem;
-  background: #fff;
+  background: $color--white;
   border-radius: 10px;
-  font-family: "Poppins", sans-serif;
 }
 
 .card {
@@ -13,18 +14,18 @@
   width: 18rem;
   height: 25rem;
 
-  @media screen and (max-width: 800px) {
+  @include for-800 {
     width: 14rem;
     height: 22rem;
   }
 
-  @media screen and (max-width: 600px) {
+  @include for-600 {
     width: 14rem;
     height: 20rem;
     padding: 2rem;
   }
 
-  @media screen and (max-width: 400px) {
+  @include for-400 {
     width: 13rem;
     height: 16rem;
     padding: 2rem;
@@ -38,7 +39,7 @@
       font-size: 2.4rem;
       font-weight: 600;
 
-      @media screen and (max-width: 400px) {
+      @include for-400 {
         font-size: 1.6rem;
       }
     }
@@ -46,7 +47,7 @@
     span {
       font-size: 1.6rem;
 
-      @media screen and (max-width: 400px) {
+      @include for-400 {
         font-size: 1.2rem;
       }
     }
@@ -56,11 +57,11 @@
     margin: 0;
     font-size: 4.8rem;
 
-    @media screen and (max-width: 800px) {
+    @include for-800 {
       font-size: 4rem;
     }
 
-    @media screen and (max-width: 400px) {
+    @include for-400 {
       font-size: 3.6rem;
     }
   }
@@ -70,7 +71,7 @@
     padding: 1.3rem;
     font-size: 1.6rem;
 
-    @media screen and (max-width: 400px) {
+    @include for-400 {
       font-size: 1.2rem;
     }
   }
@@ -117,7 +118,6 @@
   &__info {
     flex: 1;
     font-size: 1.8rem;
-    font-family: "Poppins", sans-serif;
     min-width: 30rem;
 
     ul {

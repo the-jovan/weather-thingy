@@ -1,14 +1,15 @@
+@import "../../scss/base";
+
 .home {
   max-width: 100rem;
   margin: 0 auto;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
+  color: $color--white;
 
-  @media screen and (max-width: 1200px) {
+  @include for-1200 {
     margin: 0 10%;
   }
 
-  @media screen and (max-width: 800px) {
+  @include for-800 {
     margin: 0 5%;
   }
 
@@ -17,7 +18,7 @@
     font-size: 2.4rem;
     font-weight: 600;
 
-    @media screen and (max-width: 400px) {
+    @include for-400 {
       font-size: 2rem;
     }
   }
@@ -26,7 +27,7 @@
     font-size: 2.4rem;
     font-weight: 300;
 
-    @media screen and (max-width: 400px) {
+    @include for-400 {
       font-size: 1.4rem;
       margin: 1rem 0 3rem;
     }
@@ -44,7 +45,7 @@
   justify-content: center;
   margin: 10rem 5% 5rem;
 
-  @media screen and (max-width: 400px) {
+  @include for-400 {
     margin-top: 6rem;
   }
 
@@ -55,17 +56,17 @@
     grid-row-gap: 1rem;
     max-width: 100%;
 
-    @media screen and (max-width: 800px) {
+    @include for-800 {
       grid-template-columns: repeat(auto-fit, 20rem);
       grid-column-gap: 3rem;
     }
 
-    @media screen and (max-width: 600px) {
-      grid-template-columns: repeat(auto-fit, 18rem);
-      grid-column-gap: 2rem;
+    @include for-600 {
+      grid-template-columns: repeat(auto-fit, 20rem);
+      grid-column-gap: 3rem;
     }
 
-    @media screen and (max-width: 400px) {
+    @include for-400 {
       grid-template-columns: repeat(auto-fit, 16rem);
     }
   }

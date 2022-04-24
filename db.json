@@ -165,6 +165,266 @@
             "weather_icons": ["cloud-sun"]
           }
         ]
+      },
+      "2022-04-23": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-24": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
       }
     }
   },
@@ -206,6 +466,266 @@
     },
     "historical": {
       "2022-04-22": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-23": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-24": {
         "date": "2022-04-22",
         "hourly": [
           {
@@ -503,6 +1023,266 @@
             "weather_icons": ["cloud-sun"]
           }
         ]
+      },
+      "2022-04-23": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-24": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
       }
     }
   },
@@ -672,6 +1452,266 @@
             "weather_icons": ["cloud-sun"]
           }
         ]
+      },
+      "2022-04-23": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-24": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
       }
     }
   },
@@ -713,6 +1753,266 @@
     },
     "historical": {
       "2022-04-22": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-23": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-24": {
         "date": "2022-04-22",
         "hourly": [
           {
@@ -1439,6 +2739,266 @@
             "weather_icons": ["cloud-sun"]
           }
         ]
+      },
+      "2022-04-23": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-24": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
       }
     }
   },
@@ -1480,6 +3040,266 @@
     },
     "historical": {
       "2022-04-22": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-23": {
+        "date": "2022-04-22",
+        "hourly": [
+          {
+            "time": "0",
+            "temperature": 0,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "1",
+            "temperature": 1,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "2",
+            "temperature": 2,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "3",
+            "temperature": 3,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "4",
+            "temperature": 4,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "5",
+            "temperature": 5,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "6",
+            "temperature": 6,
+            "weather_icons": ["cloud-sun-rain"]
+          },
+          {
+            "time": "7",
+            "temperature": 7,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "8",
+            "temperature": 8,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "9",
+            "temperature": 9,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "10",
+            "temperature": 10,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "11",
+            "temperature": 11,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "12",
+            "temperature": 12,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "13",
+            "temperature": 13,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "14",
+            "temperature": 14,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "15",
+            "temperature": 15,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "16",
+            "temperature": 16,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "17",
+            "temperature": 17,
+            "weather_icons": ["sun"]
+          },
+          {
+            "time": "18",
+            "temperature": 18,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "19",
+            "temperature": 19,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "20",
+            "temperature": 20,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "21",
+            "temperature": 21,
+            "weather_icons": ["cloud"]
+          },
+          {
+            "time": "22",
+            "temperature": 22,
+            "weather_icons": ["sun-plant-wilt"]
+          },
+          {
+            "time": "23",
+            "temperature": 23,
+            "weather_icons": ["cloud-sun"]
+          },
+          {
+            "time": "24",
+            "temperature": 24,
+            "weather_icons": ["cloud-sun"]
+          }
+        ]
+      },
+      "2022-04-24": {
         "date": "2022-04-22",
         "hourly": [
           {

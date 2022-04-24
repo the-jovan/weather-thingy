@@ -1,15 +1,17 @@
+@import "../../../scss/base";
+
 .header {
   padding: 4rem 20rem;
 
-  @media screen and (max-width: 1200px) {
+  @include for-1200 {
     padding: 4rem 10%;
   }
 
-  @media screen and (max-width: 800px) {
+  @include for-800 {
     padding: 4rem 5%;
   }
 
-  @media screen and (max-width: 400px) {
+  @include for-400 {
     padding: 2rem;
   }
 }

@@ -17,7 +17,6 @@ export const getCity: any = createAsyncThunk(
 
 const initialState: ICitiesState = {
   citiesSavedInLS: [],
-  limitOfLSReached: false,
   savedCitiesData: [],
   loading: false,
 };
@@ -34,7 +33,6 @@ export const citiesSlice = createSlice({
     },
     clearEverything: (state: ICitiesState) => {
       state.citiesSavedInLS = [];
-      state.limitOfLSReached = false;
       state.savedCitiesData = [];
       state.loading = false;
       localStorage.removeItem("locallySavedCities");

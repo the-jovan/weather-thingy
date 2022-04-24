@@ -9,8 +9,8 @@ const Input: FunctionComponent<{
   searchTerm: string;
   setSearchTerm: (val: string) => void;
   placeholder: string;
-  addFn: () => any;
-  searchFn: () => any;
+  addFn: () => void;
+  searchFn: () => void;
 }> = ({ searchTerm, setSearchTerm, placeholder, addFn, searchFn }) => {
   return (
     <div className={classes.wrapper}>

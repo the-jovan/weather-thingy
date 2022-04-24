@@ -1,6 +1,7 @@
+@import "../../../scss/base";
+
 .hd {
   padding: 4rem;
-  font-family: "Poppins", sans-serif;
 
   h1 {
     font-size: 2.2rem;
@@ -21,7 +22,7 @@
     font-size: 1.8rem;
     font-weight: 300;
 
-    @media screen and (max-width: 600px) {
+    @include for-600 {
       font-size: 1.6rem;
     }
   }
@@ -34,7 +35,7 @@
     font-size: 2rem;
     font-weight: 600;
 
-    @media screen and (max-width: 600px) {
+    @include for-600 {
       font-size: 1.6rem;
     }
   }

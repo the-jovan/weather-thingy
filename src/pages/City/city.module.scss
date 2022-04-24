@@ -1,13 +1,16 @@
+@import "../../scss/base";
+
 .city {
   padding: 0 10% 14rem;
-  @media screen and (max-width: 660px) {
+
+  @include for-600 {
     padding: 0 5% 14rem;
   }
 }
 
 .placeholder {
   font-size: 2rem;
-  color: #fff;
+  color: $color--white;
 
   a {
     text-decoration: none;
@@ -17,6 +20,6 @@
 .hourly {
   margin-top: 3rem;
   max-width: 100vw;
-  background: #fff;
+  background: $color--white;
   border-radius: 10px;
 }

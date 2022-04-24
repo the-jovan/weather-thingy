@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, memo } from "react";
 import classes from "./card.module.scss";
 import { ICity } from "../../../models/ICity";
 
@@ -89,4 +89,4 @@ const Card: FunctionComponent<{
   );
 };
 
-export default Card;
+export default memo(Card);
